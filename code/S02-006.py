@@ -1,0 +1,23 @@
+print("Movies: \n")
+print("--------------------\n")
+movies.info()
+print("--------------------\n")
+print("\n" * 2)
+
+print("X: \n")
+print("--------------------\n")
+X.info()
+print("--------------------\n")
+print("\n" * 2)
+
+print("framingham: \n")
+print("--------------------\n")
+framingham.info()
+print("--------------------\n")
+print("\n" * 2)
+
+print("flights: \n")
+print("--------------------\n")
+flights.info()
+print("--------------------\n")
+print("\n" * 2)
