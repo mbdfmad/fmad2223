@@ -33,8 +33,9 @@ for (row_key, col_key),ax in g.axes_dict.items():
 plt.show()
 
 X0Y1 = pd.DataFrame({'X' : X0, 'Y' : Y1})
-
-X0Y1
+X0Y2 = pd.DataFrame({'X' : X0, 'Y' : Y2})
+X0Y3 = pd.DataFrame({'X' : X0, 'Y' : Y3})
 
 X0Y1.to_csv("../data/07_simple_linear_regression_01.csv", index=False)
-
+X0Y2.to_csv("../data/07_simple_linear_regression_02.csv", index=False)
+X0Y3.to_csv("../data/07_simple_linear_regression_03.csv", index=False)

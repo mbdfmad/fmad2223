@@ -9,7 +9,7 @@ import sklearn as sk
 
 sns.set(rc={'figure.figsize':(16, 8.5)})
 
-XY = pd.read_csv("./data/07_simple_linear_regression_01.csv")
+XY = pd.read_csv("../data/07_simple_linear_regression_01.csv")
 X = XY.X.values.reshape(len(XY), 1)
 Y = XY.Y.values
 
