@@ -1,8 +1,12 @@
-# S05-005
+# S05-006
+
+# Load the data set
+auto2 = pd.read_stata('data/auto2.dta')
+auto2.head()
 
 # Compute the necessary sample values
-n = 7
-s = np.sqrt(62)
+n = len(auto2["gear_ratio"])
+s = auto2["gear_ratio"].std()
 
 # Critical point computation with the Student's t:
 cl = 0.95
